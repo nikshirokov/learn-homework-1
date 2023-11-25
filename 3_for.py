@@ -41,8 +41,8 @@ def main():
     print()
 
     avg_summ_sold_iphone = summ_sold_iphone / len(data[0]['items_sold'])
-    avg_summ_sold_xiaomi = summ_sold_iphone / len(data[1]['items_sold'])
-    avg_summ_sold_samsung = summ_sold_iphone / len(data[2]['items_sold'])
+    avg_summ_sold_xiaomi = summ_sold_xiaomi / len(data[1]['items_sold'])
+    avg_summ_sold_samsung = summ_sold_samsung / len(data[2]['items_sold'])
 
     print(f'среднее количество продаж для {data[0]["product"]}: {avg_summ_sold_iphone}')
     print(f'среднее количество продаж для {data[1]["product"]}: {avg_summ_sold_xiaomi}')

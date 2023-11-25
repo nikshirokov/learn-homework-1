@@ -20,9 +20,10 @@ def where_work_user(user_age):
         return 'Вы учитесь в школе'
     elif user_age >= 18 and user_age <= 23:
         return 'Вы учитесь в ВУЗе'
-    elif user_age >= 23 and user_age <= 100:
+    elif user_age >= 24 and user_age <= 100:
         return 'Вы работаете'
-    else:return 'Вы ввели некорректный возраст'
+    else:
+        return 'Вы ввели некорректный возраст'
 
 def main():
     """

@@ -15,7 +15,7 @@
 
 """
 def comparator(first_line, second_line):
-    if type(first_line)==str and type(second_line)==str:
+    if isinstance(first_line, str) and isinstance(second_line, str):
         if first_line == second_line:
             return 1
         elif len(first_line) > len(second_line):
